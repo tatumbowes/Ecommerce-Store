@@ -1,0 +1,455 @@
+.content h1{
+    font-family: inherit;
+    text-align: center;
+    padding-top: 12px;
+    background-color: #F5C8F2;
+    padding-bottom: 12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #F5C8F2;
+    width: 100%;
+    padding: 30px 0;
+    top: 0;
+    z-index: 999;
+    transition: .3 linear;
+}
+
+.inner-width{
+    width: 100%;
+    margin: auto;
+    padding: 0 40;
+}
+
+.navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    height: 40px;
+    background-image: url(images/butterfly5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu-toggler{
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
+}
+
+.menu-toggler span{
+    display: block;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    position: relative;
+    transition: .3s linear;
+}
+
+.navbar-menu a{
+        padding-right: 20px;
+        font-family: inherit;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 30px;
+        transition: .2s linear;
+}
+
+.navbar-menu a:hover{
+    color: white;
+}
+
+#home{
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .inner-width{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+#home .content{
+    width: 100%;
+    color: black;
+}
+
+#home .content h1{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.fa a{
+    color: black;
+    font-size: 22px;
+    margin: 0 10px;
+    transition: .2s linear;
+}
+
+.fa a:hover{
+    color: #F5C8F2;
+}
+
+#home .buttons{
+    margin-top: 60px;
+}
+
+#home .buttons a{
+    display: inline-block;
+    margin: 15px 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    width: 180px;
+    border: 1px solid #F5C8F2;
+    padding: 14px 0;
+    border-radius: 6px;
+    transition: .2s linear;
+}
+
+#home .buttons a:hover{
+    background-color: #F5C8F2;
+    color: white;
+}
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/ionicons/1.5.2/css/ionicons.min.css";
+
+body{
+    background: #f1f1f1;
+}
+
+section img {
+    height: 300px;
+}
+
+.product section {
+    display: flex;
+    justify-content: center;
+ }
+
+ .product section a:hover {
+    color: black;
+ }
+
+.prod-card{
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+}
+
+.img{
+    width: 320px;
+    float: left;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+}
+
+.pic{
+    float: right;
+}
+
+.prod-info{
+    float: left;
+    padding: 20px;
+}
+
+.prod-info span{
+    display: block;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.desc{
+    font-size: 20px;
+    color: #F5C8F2;
+}
+
+.price{
+    font-size: 40px;
+    color: #9e9e9e;
+    font-weight: 700;
+}
+
+.prod-info a{
+    display: block;
+    float: left;
+    padding: 2px 4px;
+    margin-right: 6px;
+    border: 2px solid;
+    color: #9e9e9e;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.addbtn{
+    width: 160px;
+    font-size: 24px;
+    background: #F5C8F2;
+    display: block;
+    float: left;
+    padding: 6px;
+    text-align: center;
+    margin: 8px 0;
+    transition: 0.4s opacity;
+}
+
+.addbtn:hover{
+    opacity: 0.7;
+}
+
+/* Latest Products */
+
+.title{
+    margin: 4rem 0 7rem 0;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+
+.title h1::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%,-50%);
+    background-color: #F5C8F2;
+    width: 50%;
+    height: 0.4rem;
+    z-index: 1;
+}
+
+/* product */ 
+
+.product-header{
+    padding: 15px;
+    cursor: pointer; 
+}
+
+img {
+   border: 5px groove #F5C8F2;
+}
+
+.inner-container{
+    font-family: cursive;
+}
+
+.product-footer{
+    padding-bottom: 40px;
+}
+
+/* about */
+
+.about-section{
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container2{
+    width: 55%;
+    padding: 150px;
+}
+
+.inner-container2 h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* contact */
+
+#contact h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.contact-info{
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.contact-info .item{
+  width: calc(25% - 15px);
+  height: 120px;
+  background-color: #353b48;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.contact-info i{
+  padding-bottom: 20px;
+  display: block;
+  font-size: 40px;
+  line-height: 120px;
+  height: 100px;
+}
+
+.contact-info .item:hover{
+  background-color: #F5C8F2;
+}
+
+.contact-form{
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form input, .contact-form textarea{
+  width: 70%;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #353b48;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.nameZone, .emailZone{
+  max-width: calc(40% - 10px);
+}
+
+.messageZone{
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form .btn{
+  float: left;
+  width: 180px;
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: 2px solid #353b48;
+  padding: 0;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.contact-form .btn:hover{
+  background-color: #F5C8F2;
+  color: #fff;
+}
+
+footer{
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.copyright{
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.copyright a{
+  font-size: 16px;
+  color: #353b48;
+  font-weight: 500;
+}
+
+.cm h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
